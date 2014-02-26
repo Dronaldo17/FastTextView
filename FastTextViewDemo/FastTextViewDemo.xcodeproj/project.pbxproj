@@ -568,7 +568,7 @@
 				ORGANIZATIONNAME = wangqiang;
 				TargetAttributes = {
 					5EED2E3417DD72E50080F277 = {
-						DevelopmentTeam = 9RZG62CJSN;
+						DevelopmentTeam = R744DNEXRS;
 					};
 				};
 			};

@@ -32,6 +32,8 @@
 		5EED2EC717DD94770080F277 /* TextAttchment.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5EED2E8E17DD73D80080F277 /* TextAttchment.h */; };
 		5EED2EF317DDA1AB0080F277 /* UIFont+TextUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EED2EF217DDA1AA0080F277 /* UIFont+TextUtil.m */; };
 		5EED2EFC17DDA6320080F277 /* AttributeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EED2EFB17DDA6310080F277 /* AttributeConfig.m */; };
+		95B4687018BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B4686D18BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.m */; };
+		95B4687118BDB32E00EC40E7 /* TextParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B4686F18BDB32E00EC40E7 /* TextParagraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +95,10 @@
 		5EED2EF217DDA1AA0080F277 /* UIFont+TextUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TextUtil.m"; sourceTree = "<group>"; };
 		5EED2EFA17DDA6310080F277 /* AttributeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeConfig.h; sourceTree = "<group>"; };
 		5EED2EFB17DDA6310080F277 /* AttributeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeConfig.m; sourceTree = "<group>"; };
+		95B4686C18BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+EmojiAdditions.h"; sourceTree = "<group>"; };
+		95B4686D18BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+EmojiAdditions.m"; sourceTree = "<group>"; };
+		95B4686E18BDB32E00EC40E7 /* TextParagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextParagraph.h; sourceTree = "<group>"; };
+		95B4686F18BDB32E00EC40E7 /* TextParagraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextParagraph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,10 @@
 		5EED2E7B17DD73D80080F277 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				95B4686C18BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.h */,
+				95B4686D18BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.m */,
+				95B4686E18BDB32E00EC40E7 /* TextParagraph.h */,
+				95B4686F18BDB32E00EC40E7 /* TextParagraph.m */,
 				5EBB59B418AB2B9F00D18C5C /* UIColor+TextUtil.h */,
 				5EBB59B518AB2B9F00D18C5C /* UIColor+TextUtil.m */,
 				5EED2EFA17DDA6310080F277 /* AttributeConfig.h */,
@@ -264,7 +274,9 @@
 				5EED2E9A17DD73D80080F277 /* NSMutableAttributedString+TextUtil.m in Sources */,
 				5EED2E9D17DD73D80080F277 /* TextAttchment.m in Sources */,
 				5EED2EF317DDA1AB0080F277 /* UIFont+TextUtil.m in Sources */,
+				95B4687118BDB32E00EC40E7 /* TextParagraph.m in Sources */,
 				5EED2EFC17DDA6320080F277 /* AttributeConfig.m in Sources */,
+				95B4687018BDB32E00EC40E7 /* NSCharacterSet+EmojiAdditions.m in Sources */,
 				5EBB59B618AB2B9F00D18C5C /* UIColor+TextUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
